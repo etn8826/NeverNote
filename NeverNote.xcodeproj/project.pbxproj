@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5222D4DE24577C9C004ECE4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4DD24577C9C004ECE4D /* AppDelegate.swift */; };
+		5222D4E024577C9C004ECE4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4DF24577C9C004ECE4D /* SceneDelegate.swift */; };
+		5222D4E224577C9C004ECE4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4E124577C9C004ECE4D /* ViewController.swift */; };
+		5222D4E524577C9C004ECE4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222D4E324577C9C004ECE4D /* Main.storyboard */; };
+		5222D4E824577C9C004ECE4D /* NeverNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4E624577C9C004ECE4D /* NeverNote.xcdatamodeld */; };
+		5222D4EA24577C9F004ECE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5222D4E924577C9F004ECE4D /* Assets.xcassets */; };
+		5222D4ED24577C9F004ECE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222D4EB24577C9F004ECE4D /* LaunchScreen.storyboard */; };
+		5222D4F824577C9F004ECE4D /* NeverNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4F724577C9F004ECE4D /* NeverNoteTests.swift */; };
+		5222D50324577C9F004ECE4D /* NeverNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D50224577C9F004ECE4D /* NeverNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5222D4F424577C9F004ECE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5222D4D224577C9C004ECE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5222D4D924577C9C004ECE4D;
+			remoteInfo = NeverNote;
+		};
+		5222D4FF24577C9F004ECE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5222D4D224577C9C004ECE4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5222D4D924577C9C004ECE4D;
+			remoteInfo = NeverNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5222D4DA24577C9C004ECE4D /* NeverNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222D4DD24577C9C004ECE4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5222D4DF24577C9C004ECE4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5222D4E124577C9C004ECE4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5222D4E424577C9C004ECE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5222D4E724577C9C004ECE4D /* NeverNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NeverNote.xcdatamodel; sourceTree = "<group>"; };
+		5222D4E924577C9F004ECE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5222D4EC24577C9F004ECE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5222D4EE24577C9F004ECE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222D4F324577C9F004ECE4D /* NeverNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222D4F724577C9F004ECE4D /* NeverNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverNoteTests.swift; sourceTree = "<group>"; };
+		5222D4F924577C9F004ECE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222D4FE24577C9F004ECE4D /* NeverNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5222D50224577C9F004ECE4D /* NeverNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverNoteUITests.swift; sourceTree = "<group>"; };
+		5222D50424577C9F004ECE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5222D4D724577C9C004ECE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4F024577C9F004ECE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4FB24577C9F004ECE4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5222D4D124577C9C004ECE4D = {
+			isa = PBXGroup;
+			children = (
+				5222D4DC24577C9C004ECE4D /* NeverNote */,
+				5222D4F624577C9F004ECE4D /* NeverNoteTests */,
+				5222D50124577C9F004ECE4D /* NeverNoteUITests */,
+				5222D4DB24577C9C004ECE4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5222D4DB24577C9C004ECE4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5222D4DA24577C9C004ECE4D /* NeverNote.app */,
+				5222D4F324577C9F004ECE4D /* NeverNoteTests.xctest */,
+				5222D4FE24577C9F004ECE4D /* NeverNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5222D4DC24577C9C004ECE4D /* NeverNote */ = {
+			isa = PBXGroup;
+			children = (
+				5222D4DD24577C9C004ECE4D /* AppDelegate.swift */,
+				5222D4DF24577C9C004ECE4D /* SceneDelegate.swift */,
+				5222D4E124577C9C004ECE4D /* ViewController.swift */,
+				5222D4E324577C9C004ECE4D /* Main.storyboard */,
+				5222D4E924577C9F004ECE4D /* Assets.xcassets */,
+				5222D4EB24577C9F004ECE4D /* LaunchScreen.storyboard */,
+				5222D4EE24577C9F004ECE4D /* Info.plist */,
+				5222D4E624577C9C004ECE4D /* NeverNote.xcdatamodeld */,
+			);
+			path = NeverNote;
+			sourceTree = "<group>";
+		};
+		5222D4F624577C9F004ECE4D /* NeverNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				5222D4F724577C9F004ECE4D /* NeverNoteTests.swift */,
+				5222D4F924577C9F004ECE4D /* Info.plist */,
+			);
+			path = NeverNoteTests;
+			sourceTree = "<group>";
+		};
+		5222D50124577C9F004ECE4D /* NeverNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5222D50224577C9F004ECE4D /* NeverNoteUITests.swift */,
+				5222D50424577C9F004ECE4D /* Info.plist */,
+			);
+			path = NeverNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5222D4D924577C9C004ECE4D /* NeverNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5222D50724577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNote" */;
+			buildPhases = (
+				5222D4D624577C9C004ECE4D /* Sources */,
+				5222D4D724577C9C004ECE4D /* Frameworks */,
+				5222D4D824577C9C004ECE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverNote;
+			productName = NeverNote;
+			productReference = 5222D4DA24577C9C004ECE4D /* NeverNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5222D4F224577C9F004ECE4D /* NeverNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5222D50A24577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNoteTests" */;
+			buildPhases = (
+				5222D4EF24577C9F004ECE4D /* Sources */,
+				5222D4F024577C9F004ECE4D /* Frameworks */,
+				5222D4F124577C9F004ECE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5222D4F524577C9F004ECE4D /* PBXTargetDependency */,
+			);
+			name = NeverNoteTests;
+			productName = NeverNoteTests;
+			productReference = 5222D4F324577C9F004ECE4D /* NeverNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5222D4FD24577C9F004ECE4D /* NeverNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5222D50D24577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNoteUITests" */;
+			buildPhases = (
+				5222D4FA24577C9F004ECE4D /* Sources */,
+				5222D4FB24577C9F004ECE4D /* Frameworks */,
+				5222D4FC24577C9F004ECE4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5222D50024577C9F004ECE4D /* PBXTargetDependency */,
+			);
+			name = NeverNoteUITests;
+			productName = NeverNoteUITests;
+			productReference = 5222D4FE24577C9F004ECE4D /* NeverNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5222D4D224577C9C004ECE4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Einstein Nguyen";
+				TargetAttributes = {
+					5222D4D924577C9C004ECE4D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5222D4F224577C9F004ECE4D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5222D4D924577C9C004ECE4D;
+					};
+					5222D4FD24577C9F004ECE4D = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5222D4D924577C9C004ECE4D;
+					};
+				};
+			};
+			buildConfigurationList = 5222D4D524577C9C004ECE4D /* Build configuration list for PBXProject "NeverNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5222D4D124577C9C004ECE4D;
+			productRefGroup = 5222D4DB24577C9C004ECE4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5222D4D924577C9C004ECE4D /* NeverNote */,
+				5222D4F224577C9F004ECE4D /* NeverNoteTests */,
+				5222D4FD24577C9F004ECE4D /* NeverNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5222D4D824577C9C004ECE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222D4ED24577C9F004ECE4D /* LaunchScreen.storyboard in Resources */,
+				5222D4EA24577C9F004ECE4D /* Assets.xcassets in Resources */,
+				5222D4E524577C9C004ECE4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4F124577C9F004ECE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4FC24577C9F004ECE4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5222D4D624577C9C004ECE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222D4E824577C9C004ECE4D /* NeverNote.xcdatamodeld in Sources */,
+				5222D4E224577C9C004ECE4D /* ViewController.swift in Sources */,
+				5222D4DE24577C9C004ECE4D /* AppDelegate.swift in Sources */,
+				5222D4E024577C9C004ECE4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4EF24577C9F004ECE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222D4F824577C9F004ECE4D /* NeverNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5222D4FA24577C9F004ECE4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5222D50324577C9F004ECE4D /* NeverNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5222D4F524577C9F004ECE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5222D4D924577C9C004ECE4D /* NeverNote */;
+			targetProxy = 5222D4F424577C9F004ECE4D /* PBXContainerItemProxy */;
+		};
+		5222D50024577C9F004ECE4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5222D4D924577C9C004ECE4D /* NeverNote */;
+			targetProxy = 5222D4FF24577C9F004ECE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5222D4E324577C9C004ECE4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5222D4E424577C9C004ECE4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5222D4EB24577C9F004ECE4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5222D4EC24577C9F004ECE4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5222D50524577C9F004ECE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5222D50624577C9F004ECE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5222D50824577C9F004ECE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5222D50924577C9F004ECE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5222D50B24577C9F004ECE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverNote.app/NeverNote";
+			};
+			name = Debug;
+		};
+		5222D50C24577C9F004ECE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverNote.app/NeverNote";
+			};
+			name = Release;
+		};
+		5222D50E24577C9F004ECE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeverNote;
+			};
+			name = Debug;
+		};
+		5222D50F24577C9F004ECE4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NeverNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.einsteinnguyen.NeverNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeverNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5222D4D524577C9C004ECE4D /* Build configuration list for PBXProject "NeverNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222D50524577C9F004ECE4D /* Debug */,
+				5222D50624577C9F004ECE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5222D50724577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222D50824577C9F004ECE4D /* Debug */,
+				5222D50924577C9F004ECE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5222D50A24577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222D50B24577C9F004ECE4D /* Debug */,
+				5222D50C24577C9F004ECE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5222D50D24577C9F004ECE4D /* Build configuration list for PBXNativeTarget "NeverNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5222D50E24577C9F004ECE4D /* Debug */,
+				5222D50F24577C9F004ECE4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5222D4E624577C9C004ECE4D /* NeverNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5222D4E724577C9C004ECE4D /* NeverNote.xcdatamodel */,
+			);
+			currentVersion = 5222D4E724577C9C004ECE4D /* NeverNote.xcdatamodel */;
+			path = NeverNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5222D4D224577C9C004ECE4D /* Project object */;
+}
