@@ -16,6 +16,11 @@
 		5222D4ED24577C9F004ECE4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5222D4EB24577C9F004ECE4D /* LaunchScreen.storyboard */; };
 		5222D4F824577C9F004ECE4D /* NeverNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D4F724577C9F004ECE4D /* NeverNoteTests.swift */; };
 		5222D50324577C9F004ECE4D /* NeverNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D50224577C9F004ECE4D /* NeverNoteUITests.swift */; };
+		5222D5112458D092004ECE4D /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D5102458D092004ECE4D /* NotesTableViewController.swift */; };
+		5222D5132458D7C1004ECE4D /* NeverNoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D5122458D7C1004ECE4D /* NeverNoteTableViewCell.swift */; };
+		5222D51B245A2592004ECE4D /* AddNewNeverNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5222D51A245A2592004ECE4D /* AddNewNeverNoteViewController.swift */; };
+		5289FD6D245A56210086DB6D /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5289FD6B245A56210086DB6D /* NotesTableViewCell.swift */; };
+		5289FD6E245A56210086DB6D /* NotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5289FD6C245A56210086DB6D /* NotesTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		5222D4FE24577C9F004ECE4D /* NeverNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5222D50224577C9F004ECE4D /* NeverNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverNoteUITests.swift; sourceTree = "<group>"; };
 		5222D50424577C9F004ECE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5222D5102458D092004ECE4D /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		5222D5122458D7C1004ECE4D /* NeverNoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverNoteTableViewCell.swift; sourceTree = "<group>"; };
+		5222D51A245A2592004ECE4D /* AddNewNeverNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewNeverNoteViewController.swift; sourceTree = "<group>"; };
+		5289FD6B245A56210086DB6D /* NotesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		5289FD6C245A56210086DB6D /* NotesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				5222D4EB24577C9F004ECE4D /* LaunchScreen.storyboard */,
 				5222D4EE24577C9F004ECE4D /* Info.plist */,
 				5222D4E624577C9C004ECE4D /* NeverNote.xcdatamodeld */,
+				5222D5102458D092004ECE4D /* NotesTableViewController.swift */,
+				5222D5122458D7C1004ECE4D /* NeverNoteTableViewCell.swift */,
+				5222D51A245A2592004ECE4D /* AddNewNeverNoteViewController.swift */,
+				5289FD6B245A56210086DB6D /* NotesTableViewCell.swift */,
+				5289FD6C245A56210086DB6D /* NotesTableViewCell.xib */,
 			);
 			path = NeverNote;
 			sourceTree = "<group>";
@@ -238,6 +253,7 @@
 				5222D4ED24577C9F004ECE4D /* LaunchScreen.storyboard in Resources */,
 				5222D4EA24577C9F004ECE4D /* Assets.xcassets in Resources */,
 				5222D4E524577C9C004ECE4D /* Main.storyboard in Resources */,
+				5289FD6E245A56210086DB6D /* NotesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +280,12 @@
 			files = (
 				5222D4E824577C9C004ECE4D /* NeverNote.xcdatamodeld in Sources */,
 				5222D4E224577C9C004ECE4D /* ViewController.swift in Sources */,
+				5222D5132458D7C1004ECE4D /* NeverNoteTableViewCell.swift in Sources */,
 				5222D4DE24577C9C004ECE4D /* AppDelegate.swift in Sources */,
 				5222D4E024577C9C004ECE4D /* SceneDelegate.swift in Sources */,
+				5222D51B245A2592004ECE4D /* AddNewNeverNoteViewController.swift in Sources */,
+				5222D5112458D092004ECE4D /* NotesTableViewController.swift in Sources */,
+				5289FD6D245A56210086DB6D /* NotesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
